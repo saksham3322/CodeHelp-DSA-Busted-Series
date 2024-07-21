@@ -47,7 +47,7 @@ class Solution{
     
   
   
-  int largestRectangleArea(int* heights, int n) {
+   int largestRectangleArea(int* heights, int n) {
         //int n= heights.size();
         
         vector<int> next(n);
@@ -114,4 +114,3 @@ int main() {
         cout << obj.maxArea(M, n, m) << endl;
     }
 }
-  // } Driver Code Ends
